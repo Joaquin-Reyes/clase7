@@ -1,0 +1,80 @@
+/*Extra small CELULAR*/
+@media (max-width:576px) {
+    body {
+        background-color: red;
+    }
+    .h1 {
+        color: white;
+        font-size: 40px;
+        text-align: center;
+    }
+    h2 {display: none;}
+    h3 {display: none;}
+    h4 {display: none;}
+    h5 {display: none;}
+
+}
+/*Small CELULAR*/
+@media (min-width:576px) {
+    body {
+        background-color: greenyellow;
+    }
+    .h2 {
+        color:black;
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    h1 {display: none;}
+    h4 {display: none;}
+    h5 {display: none;}
+}
+
+    /*Medium TABLET*/
+@media (min-width:768px) {
+    body {
+        background-color: blue;
+    }
+    .h3 {
+        color: white;
+        font-size: 40px;
+        text-align: center;
+    }
+    h2 {display: none;}
+    h1 {display: none;}
+    h4 {display: none;}
+    h5 {display: none;}
+}
+
+    /*Large MONITOR*/
+@media (min-width:992px) {
+    body {
+        background-color: rgb(74, 235, 101);
+    }
+    .h4 {
+        color: white;
+        font-size: 40px;
+        text-align: center;
+    }
+    .h2 {display: none;}
+    .h3 {display: none;}
+    .h4 {display: none;}
+    .h5 {display: none;}
+    
+}
+
+/*Extra Large MONITOR*/
+@media (min-width:1200px) {
+    body {
+        background-color: rgb(231, 47, 255);
+    }
+    .h5 {
+        color: white;
+        font-size: 40px;
+        text-align: center;
+    }
+    .h2 {display: none;}
+    .h3 {display: none;}
+    .h4 {display: none;}
+    .h5 {display: none;}
+}
